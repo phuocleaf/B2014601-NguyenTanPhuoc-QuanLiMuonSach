@@ -29,7 +29,7 @@
         <div class="mt-3 col-md-6">
             <div v-if="activeBook">
                 <h4>
-                    Chi tiết Sách
+                    Chi tiết nhà xuất bản
                     
                 </h4>
                 <NXBCard :book="activeBook" />
