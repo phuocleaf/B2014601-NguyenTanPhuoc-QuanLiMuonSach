@@ -29,10 +29,10 @@
             async addBook(data) {
                 try {
                     await NXBService.create(data);
-                    this.message = "Thêm sách thành công.";
+                    this.message = "Thêm thành công.";
                     //this.$router.go(-1);
                 } catch (error) {
-                    console.log("Thêm sách thất bại.");
+                    console.log("Thêm thất bại.");
                 }
             },
         },

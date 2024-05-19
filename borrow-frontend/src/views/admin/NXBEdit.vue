@@ -49,7 +49,7 @@
                 try {
                     await NXBService.update(this.book._id, data);
                     console.log(data);
-                    this.message = "Cập nhật sách thành công.";
+                    this.message = "Cập nhật thành công.";
                     //this.$router.go(-1);
                 } catch (error) {
                     console.log(error);
